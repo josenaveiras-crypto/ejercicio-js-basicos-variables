@@ -1,6 +1,6 @@
 # Práctica ejercicios programación JavaScript
 
-Completa los siguientes ejercicios según el enunciado que encontrarás en cada uno de ellos mediante un comentario.
+Completa los siguientes ejercicios según el enunciado que encontrarás en cada uno de ellos mediante un comentario. Te adjunto algunas conceptos básicos sobre programación para que los tengas en cuenta en [este enlace](https://wonderful-penalty-e2f.notion.site/Conceptos-b-sicos-de-programaci-n-3a972078a0308024b8d0d7ade3323e61?pvs=73)
 
 ## Ejecutar los scripts
 
