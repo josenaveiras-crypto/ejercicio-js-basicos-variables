@@ -7,7 +7,7 @@ Completa los siguientes ejercicios según el enunciado que encontrarás en cada 
 1. Abre un terminal en Visual Sudio (CTRL + J)
 2. Desde la línea de comandos, ejecutar **node ex1.js**
 
-Si te aparece un error como que no tienes instalado **mode** , es posible que [tengas que instalarlo](https://nodejs.org/en)
+Si te aparece [este error](https://oscarm.tinytake.com/media/1873c65?filename=1785063128366_nodejs+not+installked.png&sub_type=thumbnail_preview&type=attachment&width=1196&height=259) como que no tienes instalado **node** , es posible que [tengas que instalarlo](https://nodejs.org/en)
 
 ## ¿Qué debería ver por pantalla?
 
