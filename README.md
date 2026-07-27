@@ -2,6 +2,13 @@
 
 Completa los siguientes ejercicios según el enunciado que encontrarás en cada uno de ellos mediante un comentario. Te adjunto algunas conceptos básicos sobre programación para que los tengas en cuenta en [este enlace](https://wonderful-penalty-e2f.notion.site/Conceptos-b-sicos-de-programaci-n-3a972078a0308024b8d0d7ade3323e61?pvs=73)
 
+**Uso de la IA** : Usar la funcionalidad de autocompletar de la IA de Visual Studio Code resultará en una experiencia pobre en la asimilación de los conceptos básicos de programación. Se recomienda usarla adecuadamente:
+
+- Pedir que la IA aclare el enunciado de un ejercicio 
+- Ayudar en un primer paso para resolverlo SIN dar la solución directa (se le puede pedir explícitamente)
+- Si se resuelve por completo con la IA -> Preguntar e iterar hasta entender todos los conceptos expuestos por la IA. Borrar el ejercicio y volver a completarlo esta vez sin ayuda de la IA.
+
+
 ## Ejecutar los scripts
 
 1. Abre un terminal en Visual Sudio (CTRL + J)
