@@ -27,6 +27,9 @@ nombreCompleto: Jose Pérez<br>
 7
 </details>
 
+### ex1b.
+
+<img src="https://oscarm.tinytake.com/media/1873ee3?filename=1785133936418_TinyTake27-07-2026-08-32-14_639207307364638761.png&sub_type=thumbnail_preview&type=attachment&width=794&height=124" title="Powered by TinyTake Screen Capture"/><br>
 ### ex2. 
 
 Valor de la variableD, apartado 1:  -7  
