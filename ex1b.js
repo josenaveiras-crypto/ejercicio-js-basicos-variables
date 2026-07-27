@@ -7,7 +7,7 @@ let otroNombre;
 
 
 /**
- * TU TRABAJO: Escribe el código necesario para asignar el mismo valor a todas las variables (todas las variables deben contener el valor de 'Naiara')
+ * TU TRABAJO: Escribe 2 líneas código necesario para asignar el mismo valor a todas las variables (todas las variables deben contener el valor de 'Naiara')
  */
 
 
