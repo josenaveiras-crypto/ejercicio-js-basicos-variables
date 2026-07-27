@@ -1,5 +1,6 @@
 /**
- * ¿ Que sucede aquí? Puede que quieras coger papel y lápiz para apuntar qué valores se asigna a cada variable
+ * ¿ Que sucede aquí? Puede que quieras coger papel y lápiz para apuntar qué valores se 
+ * asigna a cada variable
  */
 
  let variableA = 1;

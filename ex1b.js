@@ -7,13 +7,16 @@ let otroNombre;
 
 
 /**
- * TU TRABAJO: Escribe 2 líneas código necesario para asignar el mismo valor a todas las variables (todas las variables deben contener el valor de 'Naiara')
+ * TU TRABAJO: Escribe 2 líneas código necesario para asignar el mismo valor a
+ *  todas las variables (todas las variables deben contener el valor de 'Naiara')
  */
 
 
 /**
  * 2. Mostramos el valor de cada una de las variables
  */
+copiarNombre = nombre;
+otroNombre = nombre;
 
 console.log("Valor de la variable 'nombre': ", nombre);
 console.log("Valor de la variable 'copiarNombre': ", copiarNombre);

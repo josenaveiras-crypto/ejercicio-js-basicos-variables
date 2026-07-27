@@ -2,13 +2,14 @@
  * Jugando con strings
  */
 
-let nombre = "Mad";
-let apellido = "Max";
+let nombre = "Jose";
+let apellido = "Naveiras";
 
-let presentacion = "";
+let presentacion = ("Me llamo " + nombre + " " + apellido);
 
 /**
- * Pregunta 1: Modifica UNICAMENTE la línea 8. ¿Qué valor tengo que asignar a 'presenetacion' para que me muestre pantalla:
+ * Pregunta 1: Modifica UNICAMENTE la línea 8. ¿Qué valor tengo que asignar a 'presenetacion'
+ *  para que me muestre pantalla:
  *   * "Me llamo Mad Max"
  *
  * 

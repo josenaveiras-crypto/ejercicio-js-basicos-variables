@@ -9,9 +9,9 @@
  */
 
  let futureYear = 2050;
- let birthYear;
+ let birthYear = 1966;
 
- let message;
+ let message = futureYear - birthYear;
 
  console.log(message);
  

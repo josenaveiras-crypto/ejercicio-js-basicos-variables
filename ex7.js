@@ -1,8 +1,9 @@
 /** Modifica la línea correspondiente para crear un string que use todas las variables */
 
-/** Mi gato se llama Michi, tiene 3 años y pesa 4.5 kilos. Es de color blanco y negro y tiene una personalidad juguetón y curioso. 
-Le encanta comer atún y tiene 5 juguetes diferentes. Necesita dormir al menos 16 horas al día. 
-Ahora mismo está jugando con su pelota. ¡Es un gato muy feliz!
+/** Mi gato se llama Michi, tiene 3 años y pesa 4.5 kilos. Es de color blanco y negro y 
+ * tiene una personalidad juguetón y curioso. 
+ * Le encanta comer atún y tiene 5 juguetes diferentes. Necesita dormir al menos 16 horas al día. 
+ * Ahora mismo está jugando con su pelota. ¡Es un gato muy feliz!
 */
 
 let nombreGato = "Michi";
@@ -15,5 +16,5 @@ let numJuguetes = 5;
 let numHorasSueño = 16;
 let jugandoAhora = "pelota";
 
-let historiaGato; // modificar solamente  esta línea
+let historiaGato = ("mi gato se llama " + nombreGato + " tiene " + edadGato + " años, pesa " + pesoGato + " kilos. Es de color " + colorGato + ". Es muy " + personalidadGato + ". Su comida favorita es " + comidaFavorita + ". Tiene ni mas ni menos que " + numJuguetes + " juguetes. Duerme " + numHorasSueño + " horas. Y ahor amismo está jugando con " + jugandoAhora); // modificar solamente  esta línea
 console.log(historiaGato);
