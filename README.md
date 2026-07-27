@@ -11,6 +11,22 @@ Si te aparece [este error](https://oscarm.tinytake.com/media/1873c65?filename=17
 
 ## ¿Qué debería ver por pantalla?
 
+### ex0
+<details>
+    <summary><strong>Ver salida esperada</strong></summary>
+nombre: Jose<br>
+edad: 30<br>
+edadJubilacion: 67<br>
+nombreCompleto: Jose Pérez<br>
+</details>
+
+### ex1
+<details>
+    <summary><strong>Ver salida esperada</strong></summary>
+
+7
+</details>
+
 ### ex2. 
 
 Valor de la variableD, apartado 1:  -7  
@@ -46,7 +62,7 @@ Ahora mismo está jugando con su pelota. ¡Es un gato muy feliz!
 
 ### ex8.
 
-El ejercicio 8 tenéis que ejecutarlo abriéndolo con Live Server. NO se ejecuta con **node**. 
+El ejercicio 8 **tenéis que ejecutarlo abriéndolo con Live Server**. NO se ejecuta con **node**. 
 Simula el terminal de un cajero automático.
 
 1. Encuentra el lugar donde se usa JavaScript dentro de un HTML

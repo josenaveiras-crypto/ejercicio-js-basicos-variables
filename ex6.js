@@ -1,5 +1,5 @@
 /**
- * Calcula el area de un círculo!
+ * Calcula el area de un círculo
  * 
  * JavaScript nos ofrece módulos con herramientas matemáticas, como por ejemplo, el módulo Math. Entre sus propiedades, podemos acceder a una aprxoimación del valor PI: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/PI
  * 
