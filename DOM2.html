@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .price {
+            color: grey;
+            font-size: 22px;
+        }
+
+        .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card button:hover {
+            opacity: 0.7;
+        }
+
+        .fancy-text {
+            text-transform: uppercase;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            /* Fuente divertida */
+            font-size: 20px;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);   
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            /* Sombra para dar profundidad */
+            transform: rotate(-2deg);
+            /* Ligeramente inclinado */
+            letter-spacing: 2px;
+            /* Espaciado entre letras */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 id="header" style="text-align:center">Product Card</h2>
+
+    <div class="card">
+        <img src="https://www.w3schools.com/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
+        <h1 id="product-name">Tailored Jeans</h1>
+        <p class="price">$19.99</p>
+        <p id="description">Some high-quality jeans crafted from the finest materials.
+        </p>
+        <p><button>Add to Cart</button></p>
+    </div>
+
+    <script>
+        // Cada ejercicio se resuelve con una línea de código o dos. Puedes modificar el HTML para añadir identificadores, pero intenta resolver los ejercicios sin hacerlo
+
+        /* Mostrar información de los nodos DOM */
+
+        // 0. Muestra por consola el texto del nodo h2.
+        // Primero: seleccionamos el nodo y lo guardamos en una variable
+        const productHeader = document.querySelector("#header");
+        console.log("Texto del nodo h2: ", productHeader.textContent);
+        
+        // 0b. Muestra por consola el texto del nodo h1
+        console.log(document.querySelector("h1").textContent); // Selecciono el nodo por su selector de etiqueta y no lo guardo en una variable
+
+        // 1. Muestra por la consola el valor de la propiedad 'src' de la imagen
+        const productImage = document.querySelector("img");
+        console.log("Atributo src de la imagen: ", productImage.src);
+
+        // Mostrar todas las propiedades del nodo
+        console.dir(productImage);
+
+        // 2. Muestra por consola la descripción de este artículo
+        const productDescription = document.querySelector("#description");
+        console.log("Descripción del artículo: ", productDescription.textContent);
+
+        // 3. Muestra el precio del producto por consola
+        const productPrice = document.querySelector(".price");
+        console.log("Precio del producto: ", productPrice.textContent);
+
+        // 3. Muestra el precio del producto por consola sin el símbolo del dólar
+        console.log("Precio del producto sin el dolar: ", productPrice.textContent.slice(1));
+
+        // 4. COMPLICADO. Muestra por consola el valor del estilo en línea 'width' del tag <img>
+        console.log("Valor de la propiedad width: ", productImage.style.width);
+
+        /* Modificar estilos CSS */
+
+        // 6. Cambiar el color del título h2 a verde (green)
+        // Tengo el header en la variable productHeader
+        productHeader.style.color = "green";
+        document.querySelector("#header").style.color = "red";
+
+        // 7. Aumentar el tamaño de fuente del nombre del producto (h1) a 28px
+        document.querySelector("#header").style.fontSize = "28px";
+        console.dir(productHeader);
+
+        // 8. Cambia el color de la letra del botón "Add To Cart" al color #002147
+        const button = document.querySelector("button");
+        button.style.color = "#002147";
+
+        // 9. Cambiar el fondo del botón a color mango
+        button.style.backgroundColor = "#FDBE02"
+
+        // 10. Utiliza el método addClass para añdir la clase CSS "fancy-text" a la descripción del producto
+        productDescription.classList.add("fancy-text");
+
+        // 5. DIFÍCIL: Aplica un 21% (de incremento) al precio de este producto y muéstralo por consola
+    
+    </script>
+
+
+</body>
+
+</html>
